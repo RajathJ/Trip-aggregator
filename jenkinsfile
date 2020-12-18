@@ -1,0 +1,22 @@
+pipeline{
+    agent any
+    tools {nodejs "Ease-Rooms"}
+
+    stages{
+        stage('Compile Stage'){
+            steps{
+                bat 'npm install'
+                bat 'npm i package.json'
+            }
+        }
+
+        stage('Testing'){
+                // options {
+                //     timeout(time: 20, unit: 'SECONDS') 
+                // }
+            steps{
+                        bat 'npm test'
+            }
+        }
+    }
+}

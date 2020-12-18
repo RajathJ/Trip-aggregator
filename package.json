@@ -1,0 +1,33 @@
+{
+  "name": "ease_rooms",
+  "version": "1.0.0",
+  "description": "A website to book hotel rooms.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "ejs": "^3.1.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "js-alert": "^1.0.4",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2",
+    "supertest": "^6.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.15.1"
+  }
+}
